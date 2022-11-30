@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    margin-bottom: 100px;
+}
+
+section{
+    max-width: 1000px;
+    margin:auto;
+
+}
+
+header{
+    background:#48c5ce;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+.title{  
+    margin: 10px;
+}
+
+#banner{
+    background-image: url(../images/people.jpg);
+    background-size: cover;
+    padding: 20px;
+    overflow: hidden;
+    height: auto;
+}
+
+#registration{
+    max-width: 230px;
+    background-color:#ffffffbb;
+    color: black;
+    float: right;
+    padding: 15px;
+    margin-bottom: 100px;
+    font-size: 0.7rem;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+/* estilo do botão*/
+input[type="submit"]{
+    color:white;
+    background: #48c5ce;
+    font-weight: bold;
+}
+
+select{
+    
+/* Tira o padrão da "setinha" nos navegadores */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100%);
+}
+
+footer{
+    background-color:#202121;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+
+.picture{
+    max-width: 150px;
+    margin-right: 50px;
+    float:left;
+}
+
+.description{
+    color:white;
+}
+
